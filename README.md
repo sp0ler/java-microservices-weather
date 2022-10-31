@@ -2,7 +2,7 @@
 <img src="https://github.com/blackcater/blackcater/raw/main/images/Hi.gif" height="32"/></h1>
 
 ### О проекте: ###
-Микросервисная архитектура получающая данные погоды с https://api.open-meteo.com/
+Микросервисная архитектура получающая данные погоды с https://open-meteo.com/
 
 
 ### Для запуска контейнеров в докере нужно сделать следующее: ###
