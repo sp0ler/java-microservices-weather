@@ -18,7 +18,8 @@ FROM openjdk:11
 COPY java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar /home/user/java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar
 WORKDIR /home/user
 EXPOSE 8081
-ENTRYPOINT ["java", "-jar", "/home/denis/java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar"] ```
+ENTRYPOINT ["java", "-jar", "/home/denis/java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar"] 
+```
 
 > 4.Собрать контейнер: 
 ```docker build -t iot-sensor .```
