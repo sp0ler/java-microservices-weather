@@ -16,8 +16,8 @@
 > 3. Сконфигурировать Dockerfile для IoT-Sensor: 
 ```
 FROM openjdk:11
-COPY java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar /home/user/java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar
-WORKDIR /home/user
+COPY java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar /home/denis/java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar
+WORKDIR /home/denis
 EXPOSE 8081
 ENTRYPOINT ["java", "-jar", "/home/denis/java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar"] 
 ```
