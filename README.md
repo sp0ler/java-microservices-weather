@@ -4,6 +4,16 @@
 ### О проекте: ###
 Микросервисная архитектура получающая данные погоды с https://open-meteo.com/
 
+### Использование: ###
+
+В java-microservices-IoT-Sensor-0.0.1-SNAPSHOT.jar могут использоваться следущие ключи:
+> 1. -urlRabbit - это IP-адресс RabbitMQ
+> 2. -urlApi - это адрес стороннего API
+
+В java-microservices-weather-0.0.1-SNAPSHOT.jar могут использоваться следущие ключи:
+> 1. urlHost - это IP-адрес БД PostgreSQL
+> 2. usernameDB - логин от БД
+> 3. passwordDB - пароль от БД
 
 ### Для запуска контейнеров в докере нужно сделать следующее: ###
 
